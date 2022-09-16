@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B625FEE28D470E100CDD566 /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B625FED28D470E100CDD566 /* PlayerView.swift */; };
+		8B625FF028D4758E00CDD566 /* PlaybackControlButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B625FEF28D4758E00CDD566 /* PlaybackControlButton.swift */; };
 		8B8B112728D4558700123668 /* ZenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8B112628D4558700123668 /* ZenApp.swift */; };
 		8B8B112928D4558700123668 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8B112828D4558700123668 /* ContentView.swift */; };
 		8B8B112B28D4558E00123668 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B8B112A28D4558E00123668 /* Assets.xcassets */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B625FED28D470E100CDD566 /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
+		8B625FEF28D4758E00CDD566 /* PlaybackControlButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaybackControlButton.swift; sourceTree = "<group>"; };
 		8B8B112328D4558700123668 /* Zen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B8B112628D4558700123668 /* ZenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZenApp.swift; sourceTree = "<group>"; };
 		8B8B112828D4558700123668 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +62,8 @@
 				8B8B113428D4562200123668 /* MeditationView.swift */,
 				8B8B112A28D4558E00123668 /* Assets.xcassets */,
 				8B8B112C28D4558E00123668 /* Preview Content */,
+				8B625FED28D470E100CDD566 /* PlayerView.swift */,
+				8B625FEF28D4758E00CDD566 /* PlaybackControlButton.swift */,
 			);
 			path = Zen;
 			sourceTree = "<group>";
@@ -142,7 +148,9 @@
 			files = (
 				8B8B112928D4558700123668 /* ContentView.swift in Sources */,
 				8B8B113528D4562200123668 /* MeditationView.swift in Sources */,
+				8B625FF028D4758E00CDD566 /* PlaybackControlButton.swift in Sources */,
 				8B8B112728D4558700123668 /* ZenApp.swift in Sources */,
+				8B625FEE28D470E100CDD566 /* PlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
