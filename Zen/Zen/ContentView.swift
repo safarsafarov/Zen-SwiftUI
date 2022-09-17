@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        MeditationView()
+        MeditationView(meditationVM: MeditationViewModel(meditation: Meditation.data))
     }
 }
 
